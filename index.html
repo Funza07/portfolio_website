@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikram Tripathi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles-container">
+        <div class="particle particle--1"></div>
+        <div class="particle particle--2"></div>
+        <div class="particle particle--3"></div>
+        <div class="particle particle--4"></div>
+        <div class="particle particle--5"></div>
+        <div class="particle particle--6"></div>
+        <div class="particle particle--7"></div>
+        <div class="particle particle--8"></div>
+    </div>
+
+    <!-- Geometric Floating Shapes -->
+    <div class="floating-shapes">
+        <div class="shape shape--triangle"></div>
+        <div class="shape shape--circle"></div>
+        <div class="shape shape--hexagon"></div>
+        <div class="shape shape--square"></div>
+    </div>
+
+    <!-- Fixed Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <div class="logo-circle">BT</div>
+            </div>
+            <ul class="nav__links">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#fun-zone" class="nav__link">Fun Zone</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <a href="https://github.com/Funza07" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                <a href="https://www.linkedin.com/in/bikram-tripathi-cse/" target="_blank" class="btn btn--outline btn--sm">LinkedIn</a>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+            </div>
+            <button class="nav__hamburger" id="hamburger">☰</button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-pattern"></div>
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__name">Bikram Tripathi</h1>
+                        <p class="hero__title">
+                            <span id="rotatingTitle">C++ Developer</span>
+                        </p>
+                        <p class="hero__description">
+                            Computer Science Engineer • Game & AI Developer
+                        </p>
+                        <button class="btn btn--primary btn--lg hero__cta">Download Resume</button>
+                    </div>
+                    <div class="hero__image">
+                        <div class="profile-placeholder">
+                            <div class="profile-icon">👨‍💻</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-divider section-divider--top"></div>
+            <div class="geometric-bg"></div>
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__bio glass-card">
+                        <p>Hi — I'm Bikram, a B.Tech Computer Science graduate from Regional Institute of Science and Technology, Meghalaya. I make games, build web apps with the MERN stack, and prototype AI/ML systems involving computer vision and deep learning.</p>
+                        <p class="about__education">B.Tech Computer Science, RIST — CGPA 8.29/10 (2021–2025)</p>
+                    </div>
+                    <div class="about__projects">
+                        <h3>Key Projects</h3>
+                        <div class="project-cards">
+                            <div class="project-card glass-card">
+                                <h4>VIBE</h4>
+                                <p>Chrome extension for voice-driven web navigation. (Jan 2025 – May 2025)</p>
+                            </div>
+                            <div class="project-card glass-card">
+                                <h4>Automated EMV Dispatch System</h4>
+                                <p>Real-time accident detection with YOLO + Optical Flow + LSTM. (Mar 2025 – Present)</p>
+                            </div>
+                            <div class="project-card glass-card">
+                                <h4>Car Showroom Management System</h4>
+                                <p>Inventory & billing system in .NET/C#. (Sep 2023 – Dec 2023)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="hexagon-grid"></div>
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill-group glass-card">
+                        <h3>Programming</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-group glass-card">
+                        <h3>Web</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-group glass-card">
+                        <h3>Game Engines</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Unity</span>
+                            <span class="skill-tag">Godot</span>
+                            <span class="skill-tag">Pygame</span>
+                        </div>
+                    </div>
+                    <div class="skill-group glass-card">
+                        <h3>AI/ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">YOLO</span>
+                            <span class="skill-tag">CNN</span>
+                            <span class="skill-tag">LSTM</span>
+                        </div>
+                    </div>
+                    <div class="skill-group glass-card">
+                        <h3>Databases</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="skill-group glass-card">
+                        <h3>DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-divider section-divider--projects"></div>
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <div class="projects__grid">
+                    <div class="card enhanced-card">
+                        <div class="card__body">
+                            <h3>VIBE</h3>
+                            <p>Voice-driven web navigation chrome extension; speech-to-text, summarization, face recognition.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">JS</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Dlib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card enhanced-card">
+                        <div class="card__body">
+                            <h3>Automated EMV Dispatch</h3>
+                            <p>Accident detection pipeline using YOLO, optical flow and LSTM to classify severity.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">YOLOv8</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card enhanced-card">
+                        <div class="card__body">
+                            <h3>Car Showroom System</h3>
+                            <p>Inventory and billing using .NET and SQL Server.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">SQL Server</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="section__title">Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-badge glass-card">
+                        <div class="cert-icon">🏆</div>
+                        <p>Python for Data Science • Udemy (2022)</p>
+                    </div>
+                    <div class="cert-badge glass-card">
+                        <div class="cert-icon">🏆</div>
+                        <p>LLMs • Google (2023)</p>
+                    </div>
+                    <div class="cert-badge glass-card">
+                        <div class="cert-icon">🏆</div>
+                        <p>C/C++ • Internshala (2023)</p>
+                    </div>
+                    <div class="cert-badge glass-card">
+                        <div class="cert-icon">🏆</div>
+                        <p>MERN Stack • tuteDude (2025)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <h2 class="section__title">Achievements</h2>
+                <div class="achievements__list">
+                    <div class="achievement-item glass-card">
+                        <div class="achievement-icon">🥇</div>
+                        <p>1st — Esplendidez Coding Competition (2022)</p>
+                    </div>
+                    <div class="achievement-item glass-card">
+                        <div class="achievement-icon">🥈</div>
+                        <p>2nd — CodeFusion (2023)</p>
+                    </div>
+                    <div class="achievement-item glass-card">
+                        <div class="achievement-icon">🥇</div>
+                        <p>1st — Kairos Coding Challenge (2024)</p>
+                    </div>
+                    <div class="achievement-item glass-card">
+                        <div class="achievement-icon">👑</div>
+                        <p>Head, Coding Club — RIST (2024–2025)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Zone Section -->
+        <section id="fun-zone" class="fun-zone">
+            <div class="gaming-pattern"></div>
+            <div class="container">
+                <h2 class="section__title">Fun Zone</h2>
+                <p class="fun-zone__intro">Play some games I've created!</p>
+                <div class="games-grid">
+                    <!-- Space Shooter Game -->
+                    <div class="game-container glass-card">
+                        <h3>Space Shooter</h3>
+                        <div class="game-canvas-container">
+                            <canvas id="spaceShooterCanvas" width="400" height="500"></canvas>
+                            <div class="game-controls">
+                                <p>Use arrow keys to move, spacebar to shoot</p>
+                                <div class="mobile-controls" id="spaceControls">
+                                    <button class="control-btn" data-action="left">←</button>
+                                    <button class="control-btn" data-action="right">→</button>
+                                    <button class="control-btn" data-action="shoot">🚀</button>
+                                </div>
+                                <button class="btn btn--primary" id="startSpaceGame">Start Game</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Racing Game -->
+                    <div class="game-container glass-card">
+                        <h3>Racing Game</h3>
+                        <div class="game-canvas-container">
+                            <canvas id="racingCanvas" width="360" height="540"></canvas>
+                            <div class="game-controls">
+                                <p>Use left/right arrow keys to avoid obstacles</p>
+                                <div class="mobile-controls" id="racingControls">
+                                    <button class="control-btn" data-action="left">←</button>
+                                    <button class="control-btn" data-action="right">→</button>
+                                </div>
+                                <button class="btn btn--primary" id="startRacingGame">Start Game</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="wave-pattern"></div>
+            <div class="container">
+                <h2 class="section__title">Contact</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact-item glass-card">
+                            <strong>Email:</strong>
+                            <a href="mailto:tripathbikram@gmail.com">tripathbikram@gmail.com</a>
+                        </div>
+                        <div class="contact-item glass-card">
+                            <strong>Phone:</strong>
+                            <a href="tel:+91-9931090555">+91-9931090555</a>
+                        </div>
+                        <div class="contact-item glass-card">
+                            <strong>GitHub:</strong>
+                            <a href="https://github.com/Funza07" target="_blank">github.com/Funza07</a>
+                        </div>
+                        <div class="contact-item glass-card">
+                            <strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/bikram-tripathi-cse/" target="_blank">linkedin.com/in/bikram-tripathi-cse</a>
+                        </div>
+                    </div>
+                    <div class="contact__form glass-card">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bikram Tripathi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
