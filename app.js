@@ -32,6 +32,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+document.getElementById('downloadResume').addEventListener('click', function () {
+    const link = document.createElement('a');
+    link.href = 'assets/documents/BikramTripathiResume.pdf';
+    link.download = 'BikramTripathiResume.pdf';
+    link.click();
+});
+
+
 // Enhanced Smooth Scrolling Navigation with offset for fixed header
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav__link');
