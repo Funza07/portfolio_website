@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementById('downloadResume').addEventListener('click', function () {
     const link = document.createElement('a');
-    link.href = 'assets/documents/BikramTripathiResume.pdf';
+    link.href = 'asserts/documents/BikramTripathiResume.pdf';
     link.download = 'BikramTripathiResume.pdf';
     link.click();
 });
